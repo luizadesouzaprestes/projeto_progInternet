@@ -1,0 +1,21 @@
+Instruções para Execução do Sistema
+
+
+Configuração do Banco de Dados:
+
+1- Crie um banco de dados chamado "dados_pet" no MySQL/phpMyAdmin.
+2- Importe o arquivo "dados_pet.sql" (localizado na raiz do repositório) para dentro do banco criado.
+
+
+
+Dados para Login:
+
+No primeiro campo, aceita nome de usuário ou email:
+
+Usuário: UsuarioTeste
+Email: usuarioteste@gmail.com
+Senha: 123
+
+Acesso por Docker (usei Docker no desenvolvimento):
+
+http://localhost:8080

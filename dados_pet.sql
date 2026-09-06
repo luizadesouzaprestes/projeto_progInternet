@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: mysql
--- Tempo de geração: 06/09/2026 às 20:48
+-- Tempo de geração: 06/09/2026 às 21:36
 -- Versão do servidor: 8.3.0
 -- Versão do PHP: 8.3.33
 
@@ -69,7 +69,8 @@ INSERT INTO `pets` (`id`, `nome`, `nascimento`, `especie_id`, `genero`, `prontua
 (5, 'Fofuxa', '2025-05-07', 9, 'femea', 'Pelagem cinza, arisca.'),
 (6, 'Katito', '2018-10-05', 6, 'macho', 'Rabo torto, pelagem marrom, castrado, vacinado, negativo para FIV  e FELV.'),
 (7, 'Louro José', '2000-12-02', 4, 'macho', 'Esverdeado, falante.'),
-(8, 'Remy', '2015-01-20', 7, 'macho', 'Pelagem cinza, dentes desgastados.');
+(8, 'Remy', '2015-01-20', 7, 'macho', 'Pelagem cinza, dentes desgastados.'),
+(9, 'Túlio', '2022-06-15', 5, 'macho', 'Pelagem clara, porte G, vacinado.');
 
 -- --------------------------------------------------------
 
@@ -129,7 +130,7 @@ ALTER TABLE `especies`
 -- AUTO_INCREMENT de tabela `pets`
 --
 ALTER TABLE `pets`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT de tabela `usuarios`

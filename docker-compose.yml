@@ -1,7 +1,7 @@
 services:
   php:
     build: .
-    container_name: prog_internet
+    container_name: dados_pet
     ports:
       - "8080:80"
     volumes:
@@ -15,7 +15,7 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: 1234
-      MYSQL_DATABASE: prog_internet
+      MYSQL_DATABASE: dados_pet
     ports:
       - "3306:3306"
     volumes:

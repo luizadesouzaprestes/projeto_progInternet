@@ -1,0 +1,258 @@
+/* pra resetar*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/* cores padrão pra mudar mais fácil*/
+:root {
+    --cor_principal: #13233d;
+    --cor_sec: #6299d0;
+    --cor_destaque: #d1d871;
+    --cor_erro: #3a4f99;
+    --cor_bg: #b2cee2;
+    --card_bg: #ecece5;
+    --text_color: #13233d;
+    --cor_borda: #bdbdb3;
+}
+
+body {
+    background-color: var(--cor_bg);
+    color: var(--text_color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Cabeçalho*/
+.main-header {
+    background-color: var(--cor_principal);
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo a {
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.nav-links a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.2s;
+}
+
+.nav-links a:hover {
+    color: var(--cor_sec);
+}
+
+.btn-logout {
+    background-color: var(--cor_erro);
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    color: white !important;
+}
+
+/* Principal */
+.main-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    flex: 1;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+/* Tabelas */
+.table-container {
+    background: var(--card_bg);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.data-table th, 
+.data-table td {
+    padding: 1rem;
+    border-bottom: 1px solid var(--cor_borda);
+}
+
+.data-table th {
+    background-color: #f8f9fa;
+    color: var(--cor_principal);
+    font-weight: 600;
+}
+
+.data-table tr:hover {
+    background-color: #f1f5f9;
+}
+
+/* Botoes */
+.botao-primary, .btn-save, .botao-salvar {
+    background-color: var(--cor_destaque);
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.95rem;
+}
+
+.botao-editar {
+    background-color: var(--cor_sec);
+    color: white;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+
+.botao-deletar {
+    background-color: var(--cor_erro);
+    color: white;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+
+.botao-cancelar {
+    background-color: #95a5a6;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Formss */
+.form-section {
+    background: var(--card_bg);
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.form-section h2 {
+    margin-bottom: 1.5rem;
+    color: var(--cor_principal);
+}
+
+.form-group {
+    margin-bottom: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.form-group label {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.form-group input, 
+.form-group select, 
+.form-group textarea {
+    padding: 0.6rem;
+    border: 1px solid var(--cor_borda);
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.radio-options {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 0.3rem;
+}
+
+.form-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+/* Tela login */
+.login-container {
+    background: var(--card_bg);
+    padding: 2.5rem;
+    border-radius: 50px;
+    max-width: 400px;
+    margin: 3rem auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-header h1 {
+    color: var(--cor_principal);
+    font-size: 1.8rem;
+}
+
+.login-header h2 {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    margin-top: 0.2rem;
+}
+
+.login-header p {
+    font-size: 0.85rem;
+    color: #95a5a6;
+    margin-bottom: 1.5rem;
+}
+
+.btn-submit {
+    background-color: var(--cor_sec);
+    color: white;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+/* Rodapé  */
+.main-footer {
+    background-color: var(--cor_principal);
+    color: #ecf0f1;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+    font-size: 0.9rem;
+}

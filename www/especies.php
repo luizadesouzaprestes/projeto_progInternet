@@ -1,6 +1,8 @@
+<?php require_once 'cabeçalho.php'; ?>
+
 <div class="page-header">
     <h2> Gerenciamento de Espécies</h2>
-    <a href="especie_form.html" class="botao-primary">+ Nova Espécie</a>
+    <a href="especie_form.php" class="botao-primary">+ Nova Espécie</a>
 </div>
 
 <div class="table-container">
@@ -17,7 +19,7 @@
                 <td>1</td>
                 <td>Cão</td>
                 <td class="actions">
-                    <a href="especie_form.html" class="botao-editar"> Editar</a>
+                    <a href="especie_form.php" class="botao-editar"> Editar</a>
                     <a href="#" class="botao-deletar">Excluir</a>
                 </td>
             </tr>
@@ -25,10 +27,12 @@
                 <td>2</td>
                 <td>Gato</td>
                 <td class="actions">
-                    <a href="especie_form.html" class="botao-editar"> Editar</a>
+                    <a href="especie_form.php" class="botao-editar"> Editar</a>
                     <a href="#" class="botao-deletar">Excluir</a>
                 </td>
             </tr>
         </tbody>
     </table>
 </div>
+
+<?php require_once 'rodape.php'; ?>

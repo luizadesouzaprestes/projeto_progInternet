@@ -1,3 +1,4 @@
+<?php require_once 'cabeçalho.php'; ?>
 
     <!-- parte principal tela de login -->
     <div class="login-container">
@@ -35,3 +36,5 @@
             </div>
 
         </form>
+
+        <?php require_once 'rodape.php'; ?>

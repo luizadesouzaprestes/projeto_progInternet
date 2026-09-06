@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Gerenciamento PetShop </title>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -11,12 +13,12 @@
     <header class="main-header">
         <nav class="navbar">
             <div class="logo">
-                <a href="index.html"> PetShop Admin</a>
+                <a href="index.php"> PetShop Admin</a>
             </div>
             <ul class="nav-links">
-                <li><a href="index.html">Pets</a></li>
-                <li><a href="especies.html">Espécies</a></li>
-                <li><a href="login.html" class="btn-logout">Sair</a></li>
+                <li><a href="index.php">Pets</a></li>
+                <li><a href="especies.php">Espécies</a></li>
+                <li><a href="login.php" class="btn-logout">Sair</a></li>
             </ul>
         </nav>
     </header>

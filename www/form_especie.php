@@ -1,7 +1,9 @@
+<?php require_once 'cabeçalho.php'; ?>
+
 <section class="form-section">
     <h2>Cadastrar / Editar Espécie</h2>
 
-    <form action="especies.html" method="POST" class="especie-form">
+    <form action="especies.php" method="POST" class="especie-form">
         
         <div class="form-group">
             <label for="especie">Nome da Espécie</label>
@@ -10,8 +12,10 @@
 
         <div class="form-actions">
             <button type="submit" class="botao-salvar">Salvar Espécie</button>
-            <a href="especies.html" class="botao-cancelar">Cancelar</a>
+            <a href="especies.php" class="botao-cancelar">Cancelar</a>
         </div>
 
     </form>
 </section>
+
+<?php require_once 'rodape.php'; ?>

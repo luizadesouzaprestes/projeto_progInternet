@@ -1,6 +1,8 @@
+<?php require_once 'cabeçalho.php'; ?>
+
 <div class="page-header">
     <h2>Gerenciamento de Pets</h2>
-    <a href="form_pet.html" class="botao-primary">+ Novo Pet</a>
+    <a href="form_pet.php" class="botao-primary">+ Novo Pet</a>
 </div>
 
 <div class="table-container">
@@ -25,7 +27,7 @@
                 <td>Macho</td>
                 <td>Vacinas em dia, castrado.</td>
                 <td class="actions">
-                    <a href="form_pet.html" class="botao-editar">Editar</a>
+                    <a href="form_pet.php" class="botao-editar">Editar</a>
                     <a href="#" class="botao-deletar">Excluir</a>
                 </td>
             </tr>
@@ -37,10 +39,12 @@
                 <td>Fêmea</td>
                 <td>Castrada, sem vacina de raiva.</td>
                 <td class="actions">
-                    <a href="form_pet.html" class="botao-editar">Editar</a>
+                    <a href="form_pet.php" class="botao-editar">Editar</a>
                     <a href="#" class="botao-deletar">Excluir</a>
                 </td>
             </tr>
         </tbody>
     </table>
 </div>
+
+<?php require_once 'rodape.php'; ?>

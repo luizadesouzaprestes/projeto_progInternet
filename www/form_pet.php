@@ -1,7 +1,10 @@
-<section class="form-section">
+<?php require_once 'cabeçalho.php'; ?>
+
+
+]<section class="form-section">
     <h2> Cadastrar / Editar Pet</h2>
 
-    <form action="index.html" method="POST" class="pet-form">
+    <form action="index.php" method="POST" class="pet-form">
         
         <div class="form-group">
             <label for="nome"> Nome do Pet</label>
@@ -37,8 +40,10 @@
 
         <div class="form-actions">
             <button type="submit" class="botao-salvar"> Salvar Pet</button>
-            <a href="index.html" class="botao-cancelar">Cancelar</a>
+            <a href="index.php" class="botao-cancelar">Cancelar</a>
         </div>
 
     </form>
 </section>
+
+<?php require_once 'rodape.php'; ?>

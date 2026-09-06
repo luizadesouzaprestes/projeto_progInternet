@@ -1,4 +1,6 @@
-<?php  
+<?php 
+
+require_once 'valida.php';
 require_once 'conecta.php';
 
 $mensagem = "";

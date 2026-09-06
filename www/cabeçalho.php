@@ -18,7 +18,7 @@
             <ul class="nav-links">
                 <li><a href="index.php">Pets</a></li>
                 <li><a href="especies.php">Espécies</a></li>
-                <li><a href="login.php" class="btn-logout">Sair</a></li>
+                <li><a href="logout.php" class="btn-logout">Sair</a></li>
             </ul>
         </nav>
     </header>

@@ -1,4 +1,6 @@
 <?php
+
+require_once 'valida.php';
 require_once 'conecta.php';
 
 $mensagem = "";
@@ -72,7 +74,7 @@ $res_especies = mysqli_query($conn, $sql_esp);
 require_once 'cabeçalho.php'; ?>
 
 
-]<section class="form-section">
+<section class="form-section">
     <h2> Cadastrar / Editar Pet</h2>
 
     <form action="form_pet.php" method="POST" class="pet-form">
